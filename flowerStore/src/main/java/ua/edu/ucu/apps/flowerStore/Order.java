@@ -10,7 +10,7 @@ import ua.edu.ucu.apps.flowerStore.flower.Item;
 
 @ToString
 public class Order {
-    private LinkedList<Item> items = new LinkedList<>();
+    private LinkedList<Item> items;
     private Payment payment;
     private Delivery delivery;
 
