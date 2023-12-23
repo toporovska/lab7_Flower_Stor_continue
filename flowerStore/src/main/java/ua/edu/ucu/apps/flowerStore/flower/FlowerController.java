@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/flower")
-public class Flower_CONTROL {
+public class FlowerController {
 
     @GetMapping("/list")
     public List<Flower> getFlowers() {
