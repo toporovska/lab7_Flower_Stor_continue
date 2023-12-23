@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/flower")
-public class Payment_CONTROL {
+public class PaymentController {
     @GetMapping("/payment")
     public String getDeliveryStrategies() {
         return "Ways of payment " + List.of(
